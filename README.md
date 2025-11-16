@@ -7,8 +7,8 @@
 powershell -c "irm bun.sh/install.ps1 | iex"
 ```
 
-```bash
 ### macOS / Linux
+```bash
 curl -fsSL https://bun.com/install | bash
 ```
 ---
