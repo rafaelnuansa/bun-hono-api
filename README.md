@@ -1,5 +1,16 @@
 # Project Setup
 
+## 🏗️ Install Bun
+
+### Windows (PowerShell)
+powershell -c "irm bun.sh/install.ps1 | iex"
+
+### macOS / Linux
+curl -fsSL https://bun.com/install | bash
+
+---
+
+
 ## 📦 Install Dependencies
 Project ini menggunakan beberapa dependensi utama:
 
@@ -167,11 +178,3 @@ Response:
 
 # ✔️ Selesai
 README ini sudah siap dipakai langsung.
-
-Jika kamu mau, saya bisa tambahkan:
-- contoh request/response JSON  
-- contoh curl / Postman  
-- struktur folder project  
-- dokumentasi middleware (validateBody & verifyToken)  
-
-Tinggal bilang!
