@@ -3,8 +3,10 @@
 ## 🏗️ Install Bun
 
 ### Windows (PowerShell)
+```powershell
 powershell -c "irm bun.sh/install.ps1 | iex"
 
+```bash
 ### macOS / Linux
 curl -fsSL https://bun.com/install | bash
 
