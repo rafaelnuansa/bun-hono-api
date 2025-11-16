@@ -1,3 +1,5 @@
+![Hono Logo](https://raw.githubusercontent.com/honojs/hono/main/docs/images/hono-title.png)
+
 # Project Setup
 
 ## 🏗️ Install Bun
