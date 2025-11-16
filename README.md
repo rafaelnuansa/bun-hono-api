@@ -173,8 +173,3 @@ Response:
 | GET    | /users/:id     | ✅   | Ambil user by ID           |
 | PUT    | /users/:id     | ✅   | Update user by ID          |
 | DELETE | /users/:id     | ✅   | Hapus user by ID           |
-
----
-
-# ✔️ Selesai
-README ini sudah siap dipakai langsung.
