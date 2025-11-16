@@ -5,11 +5,12 @@
 ### Windows (PowerShell)
 ```powershell
 powershell -c "irm bun.sh/install.ps1 | iex"
+```
 
 ```bash
 ### macOS / Linux
 curl -fsSL https://bun.com/install | bash
-
+```
 ---
 
 
@@ -23,21 +24,21 @@ Project ini menggunakan beberapa dependensi utama:
 - @types/bun (dev)
 
 Untuk meng-install semua dependency, jalankan:
-
+``` bash
 bun install
-
+```
 ---
 
 ## ⚙️ Setup Environment Variables
 Duplikat file `.env.example` menjadi `.env`:
-
+```
 cp .env.example .env
-
+```
 ### 🔐 Generate JWT Secret
 Generate JWT secret menggunakan Bun:
-
+```bash
 bun -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
-
+```
 Masukkan hasilnya ke dalam file `.env`:
 
 JWT_SECRET=hasil_generate_tadi
@@ -46,9 +47,9 @@ JWT_SECRET=hasil_generate_tadi
 
 ## 🚀 Run Development Server
 Menjalankan aplikasi dalam mode development:
-
+``` bash
 bun run dev
-
+```
 Aplikasi akan berjalan pada:
 
 http://localhost:3000
